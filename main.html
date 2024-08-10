@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Keeper</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+
+
+</head>
+
+<body>
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-half is-offset-one-quarter">
+                    <div class="card">
+                        <div class="card-image">
+                            <figure class="image is 2by1">
+                                <img
+                                    src="data:image/jpeg;base64,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">
+                            </figure>
+                        </div>
+                        <header class="card-header">
+                            <p class="card-header-title">Multiplayer Score Keeper</p>
+                            <button class="card-header-icon" aria-label="more options">
+                                <span class="icon">
+                                    <i class="fas fa-angle-down" aria-hidden="true"></i>
+                                </span>
+                            </button>
+                        </header>
+                        <div class="card-content">
+                            <div class="content">
+                                <h1 class="title is-1"><span id="p1display">0</span> to <span id="p2display">0</span>
+                                </h1>
+                                <p class="subtitlt">Use buttons below to keep Score</p>
+                            </div>
+
+                            <label for="playrange" class="label is-large is-inline">Playing To </label>
+
+                            <div class="select is-rounded">
+                                <select name="playrange" id="playrange">
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="5">Five</option>
+                                    <option value="6">Six</option>
+                                    <option value="7">Seven</option>
+                                    <option value="8">Eight</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <footer class="card-footer">
+                            <button id="p1button" class="is-primary button card-footer-item">+1 Player 1</button>
+                            <button id="p2button" class="is-Info button card-footer-item">+1 Player 2</button>
+                            <button id="reset" class="is-danger button card-footer-item">Reset</button>
+
+
+
+                        </footer>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
